@@ -81,3 +81,9 @@ div {
         transform: scale(1.0, 1.0);
     }
 }
+
+@media only screen and (max-width: 270px) {
+    .title {
+        display: none;
+    }
+}
