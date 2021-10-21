@@ -26,7 +26,9 @@ a {
 }
 
 .title {
-    font-size: 50px;
+    margin: 30px;
+    transform: scale(1.75, 1.75);
+    text-align: center;
 }
 
 div {
@@ -62,12 +64,12 @@ div {
     }
 
     .title {
-        font-size: 35px;
+        transform: scale(1.5, 1.5);
     }
 }
 
 @media only screen and (max-width: 370px) {
     .title {
-        font-size: 30px;
+        transform: scale(1.25, 1.25);
     }
 }
