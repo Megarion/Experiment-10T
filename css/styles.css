@@ -10,7 +10,6 @@ body {
 }
 
 #main {
-
     border: 2px solid lime;
     background-color: black;
     border-radius: 10px;
@@ -24,6 +23,10 @@ h1, h2, h3 {
 a {
     text-decoration: none;
     color: rgb(255, 251, 0);
+}
+
+.title {
+    font-size: 50px;
 }
 
 div {
@@ -45,4 +48,26 @@ div {
 
 ::-webkit-scrollbar-thumb:hover {
     background: rgb(59, 160, 34); 
+}
+
+@media only screen and (max-width: 790px) {
+    #body {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    #body {
+        width: 95%;
+    }
+
+    .title {
+        font-size: 35px;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    .title {
+        font-size: 30px;
+    }
 }
