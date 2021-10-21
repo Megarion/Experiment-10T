@@ -64,20 +64,20 @@ div {
     #body {
         width: 90%;
     }
+
+    .title {
+        transform: scale(1.25, 1.25);
+    }
 }
 
 @media only screen and (max-width: 520px) {
     #body {
         width: 95%;
     }
-
-    .title {
-        transform: scale(1.5, 1.5);
-    }
 }
 
 @media only screen and (max-width: 370px) {
     .title {
-        transform: scale(1.25, 1.25);
+        transform: scale(1.0, 1.0);
     }
 }
