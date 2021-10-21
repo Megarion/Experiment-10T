@@ -5,5 +5,3 @@
 - [x] HTML
 - [ ] CSS
 - [ ] Assets
-- [ ] Scripts
-- [ ] Data
