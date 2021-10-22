@@ -1,6 +1,6 @@
 @font-face {
     font-family: defaultFont;
-    src: url(assets/GravityRegular5.ttf);
+    src: url(assets/defaultFont.ttf);
 
     /* Wtf this */
 }
@@ -9,8 +9,7 @@ body {
     font-family: defaultFont;
     color: white;
     background-color: rgb(15, 15, 15);
-    font-size: small;
-    line-height: 25px;
+    font-size: 25px;
 }
 
 #body {
@@ -41,6 +40,7 @@ kbd {
     border: 1px solid lime;
     background-color: rgb(39, 39, 39);
     color: lime;
+    font-size: 20px;
 }
 
 .title {
