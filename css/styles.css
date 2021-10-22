@@ -1,7 +1,16 @@
+@font-face {
+    font-family: defaultFont;
+    src: url(/assets/GravityRegular5.ttf);
+
+    /* Wtf this */
+}
+
 body {
-    font-family: 'Roboto Mono', monospace;
+    font-family: defaultFont;
     color: white;
     background-color: rgb(15, 15, 15);
+    font-size: small;
+    line-height: 25px;
 }
 
 #body {
@@ -26,6 +35,7 @@ a {
 }
 
 kbd {
+    font-family: defaultFont;
     border-radius: 2px;
     padding: 2px;
     border: 1px solid lime;
