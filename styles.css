@@ -28,7 +28,7 @@ h1, h2, h3 {
     color: lime;
 }
 
-a {
+a, .dropdown-text {
     text-decoration: none;
     color: rgb(255, 251, 0);
 }
@@ -51,6 +51,26 @@ kbd {
 
 div {
     margin-bottom: 30px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(12, 12, 12);
+    border: 1px solid lime;
+    padding: 12px;
+    z-index: 5;
+    font-size: 20px;
+    width: 300px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 
 /* Scrollbar */
@@ -83,6 +103,24 @@ div {
 @media only screen and (max-width: 520px) {
     #body {
         width: 95%;
+    }
+}
+
+@media only screen and (max-width: 445px) {
+    .dropdown-content {
+        width: 250px;
+    }
+}
+
+@media only screen and (max-width: 385px) {
+    .dropdown-content {
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    .dropdown-content {
+        width: 150px;
     }
 }
 
