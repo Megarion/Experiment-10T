@@ -6,6 +6,7 @@
 }
 
 body {
+    cursor: default;
     font-family: defaultFont;
     color: white;
     background-color: rgb(15, 15, 15);
@@ -67,6 +68,10 @@ div {
     z-index: 5;
     font-size: 20px;
     width: 300px;
+}
+
+.dropdown:hover {
+    cursor: help;
 }
 
 .dropdown:hover .dropdown-content {
