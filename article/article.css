@@ -14,9 +14,31 @@
 }
 
 tr {
-    margin-bottom: 35px;
+    margin-bottom: 55px;
+}
+
+td {
+    padding: 20px;
 }
 
 #info {
     color: lime;
+}
+
+.cimg-small {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.cimg-med {
+    width: 175px;
+    height: 175px;
+    object-fit: cover;
+}
+
+.cimg-big {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
 }
