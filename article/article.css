@@ -1,0 +1,22 @@
+/* For articles */
+.cont {
+    width: 100%;
+}
+
+.cleft {
+    text-align: left;
+    width: 50%;
+}
+
+.cright {
+    text-align: right;
+    width: 50%;
+}
+
+tr {
+    margin-bottom: 35px;
+}
+
+#info {
+    color: lime;
+}
