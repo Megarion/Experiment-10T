@@ -42,3 +42,25 @@ td {
     height: 200px;
     object-fit: cover;
 }
+
+@media only screen and (max-width: 625px){
+    .cimg-small {
+        display: none;
+    }
+    
+    .cimg-med {
+        display: none;
+    }
+    
+    .cimg-big {
+        display: none;
+    }
+
+    .cleft {
+        width: 100%;
+    }
+
+    .cright {
+        display: none;
+    }
+}
