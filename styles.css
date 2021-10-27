@@ -10,7 +10,7 @@ body {
     font-family: defaultFont;
     color: white;
     background-color: rgb(15, 15, 15);
-    font-size: 25px;
+    font-size: 35px;
 }
 
 #body {
@@ -66,7 +66,7 @@ div {
     border: 1px solid lime;
     padding: 12px;
     z-index: 5;
-    font-size: 20px;
+    font-size: 25px;
     width: 300px;
 }
 
