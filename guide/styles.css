@@ -44,11 +44,7 @@ kbd {
     font-size: 20px;
 }
 
-.title {
-    margin: 30px;
-    transform: scale(1.75, 1.75);
-    text-align: center;
-}
+
 
 div {
     margin-bottom: 30px;
@@ -100,9 +96,7 @@ div {
         width: 90%;
     }
 
-    .title {
-        transform: scale(1.25, 1.25);
-    }
+
 }
 
 @media only screen and (max-width: 520px) {
@@ -130,9 +124,7 @@ div {
 }
 
 @media only screen and (max-width: 370px) {
-    .title {
-        transform: scale(1.0, 1.0);
-    }
+
 }
 
 @media only screen and (max-width: 270px) {

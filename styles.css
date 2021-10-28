@@ -46,8 +46,14 @@ kbd {
 
 .title {
     margin: 30px;
-    transform: scale(1.75, 1.75);
     text-align: center;
+}
+
+.titleimg {
+    height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
 }
 
 div {
@@ -100,8 +106,9 @@ div {
         width: 90%;
     }
 
-    .title {
-        transform: scale(1.25, 1.25);
+    .titleimg {
+        max-width: 250px; 
+        max-height: 250px;
     }
 }
 
@@ -129,13 +136,14 @@ div {
     }
 }
 
-@media only screen and (max-width: 370px) {
-    .title {
-        transform: scale(1.0, 1.0);
+@media only screen and (max-width: 400px) {
+    .titleimg {
+        max-width: 200px; 
+        max-height: 200px;
     }
 }
 
-@media only screen and (max-width: 270px) {
+@media only screen and (max-width: 340px) {
     .title {
         display: none;
     }
