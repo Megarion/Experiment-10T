@@ -9,7 +9,7 @@ body {
     cursor: default;
     font-family: defaultFont;
     color: white;
-    background-color: rgb(15, 15, 15);
+    background-color: rgb(14, 14, 14);
     font-size: 35px;
 }
 
@@ -56,6 +56,14 @@ kbd {
     max-height: 300px;
 }
 
+.titlebg {
+    height: auto; 
+    width: auto; 
+    max-width: 400px; 
+    max-height: 400px;
+}
+
+
 div {
     margin-bottom: 30px;
 }
@@ -99,6 +107,25 @@ div {
 
 ::-webkit-scrollbar-thumb:hover {
     background: rgb(59, 160, 34); 
+}
+
+@media only screen and (min-width: 620px) {
+    .titleimg {
+        background-image: url('assets/background.png');
+        padding: 30px 100px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #body {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 870px) {
+    #body {
+        width: 80%;
+    }
 }
 
 @media only screen and (max-width: 790px) {
