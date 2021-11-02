@@ -26,21 +26,24 @@ td {
 }
 
 .cimg-small {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
+    max-width: 150px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
 }
 
 .cimg-med {
-    width: 175px;
-    height: 175px;
-    object-fit: cover;
+    max-width: 175px;
+    max-height: 175px;
+    width: auto;
+    height: auto;
 }
 
 .cimg-big {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
+    max-width: 200px;
+    max-height: 200px;
+    width: auto;
+    height: auto;
 }
 
 @media only screen and (max-width: 625px){
