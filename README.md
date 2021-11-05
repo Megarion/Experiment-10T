@@ -1,7 +1,6 @@
-## Website
-[In development](https://u23rn6m3.github.io/Experiment-10T/)
+## Deprecated
+Website was moved.
+- [GitHub repository](https://github.com/Thonkaa/Experiment-10T)
+- [GitHub Page](https://thonkaa.github.io/Experiment-10T/)
 
-## Tasks
-- [x] HTML
-- [ ] CSS
-- [ ] Assets
+This repository is no longer updated and waiting for archive/removal.
